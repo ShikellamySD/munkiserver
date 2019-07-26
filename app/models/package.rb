@@ -65,8 +65,8 @@ class Package < ActiveRecord::Base
 
   FORM_OPTIONS = { restart_actions: [["None", "None"], ["Logout", "RequireLogout"], ["Restart", "RequireRestart"], ["Recommend Restart", "RecommendRestart"]],
                    os_versions: [[["Any", ""]],
-                                 os_range(10, 15, 0..0),
-                                 os_range(10, 14, 0..4),
+                                 os_range(10, 15, 0..6),
+                                 os_range(10, 14, 0..6),
                                  os_range(10, 13, 0..6),
                                  os_range(10, 12, 0..6),
                                  os_range(10, 11, 0..6),
